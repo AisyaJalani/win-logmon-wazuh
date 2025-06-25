@@ -1,0 +1,10 @@
+<group name="custom-windows-rules">
+  <rule id="100100" level="12">
+    <if_sid>18107</if_sid>
+    <field name="win.system.eventID">4625</field>
+    <description>Custom: Multiple failed login attempts detected</description>
+    <frequency>5</frequency>
+    <timeframe>60</timeframe>
+    <group>authentication_failed,windows</group>
+  </rule>
+</group>
