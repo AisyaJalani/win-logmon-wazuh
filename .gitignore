@@ -1,0 +1,14 @@
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# System files
+.DS_Store
+
+# Bash history (if logging shell steps)
+.bash_history
+
+# Reports
+summary_report.pdf
